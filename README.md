@@ -31,12 +31,12 @@ Or install it yourself as:
 ### 기본 검색
 
 	content = "삼국지"
-	Interpark::Book::Search.content(query)
+	Interpark::Book::Search.query(content)
 	
 ### 상세 검색
 
 	content = "삼국지"
-  options = {:query_type => "all"}
+  	options = {:query_type => "all"}
 	Interpark::Book::Search.query(content, options)
 	
 ### 다른 예제
