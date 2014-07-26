@@ -34,6 +34,7 @@ Or install it yourself as:
 	Interpark::Book::Search.content(query)
 	
 ### 상세 검색
+
 	content = "삼국지"
   options = {:query_type => "all"}
 	Interpark::Book::Search.query(content, options)
