@@ -22,7 +22,7 @@ Or install it yourself as:
 
 	# config/initialize/interpark-book.rb
 	
-	require 'interpark-book'
+	require 'interpark/book'
 	
 	Interpark::Book.configure do |config|
 		config.key = "인터파크 API 콘솔에서 발급 받은 키"
